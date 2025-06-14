@@ -13,7 +13,6 @@ A sleek and simple web app built with **Flask**, **Selenium**, and **JavaScript*
 - Frontend URL validation using JavaScript
 - Clean loading screen while scraping
 - CSV export and download option
-- Responsive UI with dark theme
 
 ---
 
