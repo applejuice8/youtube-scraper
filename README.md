@@ -1,39 +1,79 @@
 
-# YouTube Channel Scraper
+# 📺 YouTube Channel Scraper
 
-This is a simple Flask web app that uses Selenium to scrape videos from a YouTube channel page (e.g., `https://www.youtube.com/@channelName/videos`).
-
-## Features
-- User-friendly web interface
-- URL validation using JavaScript
-- Loading screen while scraping
-- Scrapes video metadata (title, views, posted date, etc.)
-- Exports data to CSV (`youtube.csv`)
-- Option to download the scraped CSV file
-
-## Screenshot
+A sleek and simple web app built with **Flask**, **Selenium**, and **JavaScript** that scrapes videos from a YouTube channel (e.g. `https://www.youtube.com/@channel/videos`) and exports them to a CSV file.
 
 ![Screenshot](screenshot.png)
 
-## How to Run
+---
 
-1. Clone the repository:
+## 🚀 Features
+
+- Scrapes video details using Selenium (title, views, posted date, etc.)
+- Frontend URL validation using JavaScript
+- Clean loading screen while scraping
+- CSV export and download option
+- Responsive UI with dark theme
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (Flask)
+- **Scraping**: Selenium WebDriver
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/your-username/youtube-scraper.git
+   cd youtube-scraper
    ```
 
-2. Install dependencies:
+2. **Set up a virtual environment (recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the Flask app:
+4. **Run the Flask app**
    ```bash
    python app.py
    ```
 
-4. Open your browser and go to: `http://127.0.0.1:5000`
+5. **Open your browser**  
+   Go to `http://127.0.0.1:5000/` to start scraping!
 
-## Dependencies
-See `requirements.txt`
+---
+
+## 📁 Project Structure
+
+```
+youtube-scraper/
+│
+├── templates/
+│   └── base.html
+│   └── index.html
+│   └── loading.html
+│   └── results.html
+│
+├── static/
+│   └── script.js
+│   └── styles.css
+│   └── youtube.svg
+│
+├── app.py
+├── scraper.py
+├── requirements.txt
+└── screenshot.png
+```
+
+---
