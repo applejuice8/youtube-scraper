@@ -9,6 +9,16 @@
     --color-hover: #5a81ad;
 }
 
+::-webkit-scrollbar {
+    background-color: var(--color-hover);
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-button);
+    border-radius: 5px;
+}
+
 body {
     background-color: var(--color-primary);
     font-family: 'Open Sans', sans-serif;
